@@ -66,7 +66,6 @@ client.on('message', message => {
     console.log(message.content);
 
     if (message.content.startsWith(prefix)) {
-        console.log(message.content);
         const args = message.content.slice(prefix.length).trim().split(/ +/);
         const command = args.shift().toLowerCase();
         switch(command) {
