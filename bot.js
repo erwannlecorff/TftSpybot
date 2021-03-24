@@ -63,7 +63,7 @@ tabRank["I"]=4;
 client.on('message', message => {
 
     // Notre client doit savoir s’il doit executer une commande
-    console.log(message.content);
+    //console.log(message.content);
 
     if (message.content.startsWith(prefix)) {
         const args = message.content.slice(prefix.length).trim().split(/ +/);
